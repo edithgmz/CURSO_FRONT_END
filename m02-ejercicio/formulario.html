@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M02 Ejercicio - Formulario</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Character basic information</legend>
+
+            <div style="margin-bottom: 10px;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Character's name" size="20">
+            </div>
+
+            <div style="margin-bottom: 10px;">
+                <label for="role">Role:</label>
+                <select name="role" id="role" required>
+                    <option value="">--Select the role--</option>
+                    <option value="main">Main</option>
+                    <option value="supporting">Supporting</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="race">Race:</label>
+                <select name="race" id="race">
+                    <option value="">--Select the race--</option>
+                    <option value="god">God</option>
+                    <option value="human">Human</option>
+                    <option value="valkyrie">Valkyrie</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Voice actor basic information</legend>
+
+            <div style="margin-bottom: 10px;">
+                <label for="name2">Name:</label>
+                <input type="text" id="name2" name="name2" required placeholder="Voice actor's name" size="20">
+            </div>
+
+            <div>
+                <label for="lastname">Lastname:</label>
+                <input type="text" id="lastname" name="lastname" required placeholder="Voice actor's lastname"
+                    size="20">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Character's extras</legend>
+
+            <div style="margin-bottom: 10px;">
+                <label for="image">Image:</label>
+                <input type="file" name="image" id="image" accept="image/png, image/jpeg">
+            </div>
+
+            <div>
+                <label for="profile">Profile URL:</label>
+                <input type="url" name="profile" id="profile" required placeholder="https://www.example.com/profile"
+                    size="25">
+            </div>
+        </fieldset>
+
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <input type="submit" name="send" id="send" value="SUBMIT">
+        </div>
+
+    </form>
+
+    <div style="margin-top: 20px;">
+        <a href="home.html">
+            <span style="font-style: italic; font-weight: bold; color: dodgerblue;">
+                Return to home page.
+            </span>
+        </a>
+    </div>
+
+</body>
+
+</html>

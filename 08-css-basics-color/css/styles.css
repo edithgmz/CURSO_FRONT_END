@@ -1,0 +1,87 @@
+/*div {
+    color: white;
+}*/
+
+* {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+article {
+    background-color: #6fcaff;
+}
+
+p,
+h1,
+span,
+section {
+    font-size: 30px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.btn-main,
+.title,
+.main,
+.subtitle {
+    color: #fff;
+    background-color: #5a0079;
+    font-weight: 700;
+}
+
+.txt {
+    font-size: 20px;
+}
+
+article>p {
+    font-size: 25px;
+}
+
+input[type="text"] {
+    background-color: #00794f;
+}
+
+button:hover {
+    background-color: #790049;
+}
+
+p:hover {
+    background-color: #5a0079;
+}
+
+article>h1:first-child {
+    font-size: 50px;
+}
+
+article p:nth-child(3) {
+    font-size: 35px;
+}
+
+article p:last-child {
+    font-size: 45px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: lowercase;
+    line-height: 3;
+    word-spacing: 20px;
+    text-shadow: 10px 10px 15px #2471A3;
+}
+
+.txt {
+    font-size: 20px;
+}
+
+#txt-main {
+    font-size: 15px;
+}
